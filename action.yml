@@ -1,0 +1,9 @@
+name: Setup WKHTMLTOPDF
+description: Set up a WKHTMLTOPDF installation and add it to the PATH
+author: Distru
+branding:
+  color: green
+  icon: file-text
+runs:
+  using: node12
+  main: src/setup-wkhtmltopdf.js
